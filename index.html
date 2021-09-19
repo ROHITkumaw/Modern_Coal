@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title></title>
+  </head>
+  <body>
+    <div id="body">
+      <img src="modern.jpg" class="image" />
+      <div id="tax">
+        <h3><u>TAX INVOICE</u></h3>
+        <h2>CASH / CREDIT MEMO</h2>
+        <h1>MODERN COAL CARBONISATION ENTERPRISE</h1>
+        <h2>LOW ASH METALLURGICAL COKE MANUFACTURE</h2>
+        <h2>At Khudandih, P.O. Kankomath, Katras,Dhanbad(Jharkhand) 828113</h2>
+      </div>
+      <div class="container">
+        <div id="navbar">
+          <table style="width: 100%">
+            <tr>
+              <td><h4>GSTIN:20AACFM7663D1ZN</h4></td>
+              <td><h4>PAN:AACFM7663D</h4></td>
+              <td><h4>State - JHARKHAND</h4></td>
+              <td><h4>Code - 20</h4></td>
+              <td><h4>S.S.I No:03/04/00294 / 200121200940 Part-II</h4></td>
+            </tr>
+            <table style="width: 100%">
+              <tr>
+                <td>
+                  INVOICE NO : MCCE <input type="text" id="inputbox" /> /<input
+                    type="text"
+                    id="inputbox"
+                  />
+                  /
+                  <input type="text" id="inputbox" />
+                  <input type="date" id="date" />
+                </td>
+              </tr>
+            </table>
+          </table>
+        </div>
+        <div id="navbar2">
+          <table style="width: 100%">
+            <tr>
+              <td class="name">
+                <h2>Name :</h2>
+                <h3 id="name"></h3>
+              </td>
+              <td class="address">
+                <h2>Address :</h2>
+                <h3 id="address"></h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Delivery Address :<input type="text" id="deliveryaddress" />
+                GSTIN : <input type="text" id="gst" />
+              </td>
+              <td>GSTIN : <input type="text" id="number" /></td>
+            </tr>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th>HSN Code</th>
+                <th>Description Of Goods</th>
+                <th>Quantity(in M.T)</th>
+                <th>Rate(Per M.T</th>
+                <th>Values of Goods(₹)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td id="hsn">
+                  <input type="number" id="hsn" />
+                  <input type="number" id="hsn" />
+                </td>
+                <td>
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                  <h3 >E-way bill No.</h3>
+                  <input type="number" class="truckno" />
+                  <h3>Vehicle No.</h3>
+                  <input type="text" class="truckno" />
+                </td>
+                <td id="quantity">
+                  <input type="number" id="input" />
+                  <h3 id="right">Less Discount.</h3>
+                  <h3 id="right">Total Amount.</h3>
+                  <h3 id="right">SGST @2.5%</h3>
+                  <h3 id="right">CGST @2.5%</h3>
+                  <h3 id="right">IGST @ 5%</h3>
+                  <h3 id="right">Cess.</h3>
+                  <h3 id="right">Other Charges.</h3>
+                  <h3 id="right">Gross Total(₹).</h3>
+                </td>
+                <td id="quantity">
+                  <input type="number" id="rate" />
+                  <!-- <input type="number" id="quantity" />
+                <input type="number" id="quantity" />
+                <input type="number" id="quantity" />
+                <input type="number" id="quantity" />
+                <input type="number" id="quantity" />
+                <input type="number" id="quantity" />
+                <input type="number" id="quantity" />
+                <input type="number" id="quantity" /> -->
+                </td>
+                <td id="quantity">
+                  <div id="vofgoods">
+                    <input type="number" id="quantity" />
+                  </div>
+                  <input type="number" id="quantity" />
+                  <div id="amount">
+                    <input type="number" id="quantity" />
+                  </div>
+                  <div id="sgst">
+                    <input type="number" id="quantity" />
+                  </div>
+
+                  <div id="cgst">
+                    <input type="number" id="quantity" />
+                  </div>
+                  <div id="igst">
+                    <input type="number" id="quantity" />
+                  </div>
+                  <input type="number" id="quantity" />
+                  <input type="number" id="quantity" />
+                  <div id="total">
+                    <input type="number" id="quantity" />
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2>Total (₹) in words : <span id="words"></span></h2>
+        <h2>
+          Note:Our responsibilities ceases as soon as the Truck leaves our
+          factory
+        </h2>
+      </div>
+      <div id="leftalign">
+        <center><h2>E.&.O.E</h2></center>
+        <h2>For MODERN COAL CARBONISATION ENTERPRISE</h2>
+        <textarea name="" id="authorisedsignature"></textarea>
+        <h2 id="authsig">Authorised Signature :</h2>
+      </div>
+      <div id="underline">
+        <u
+          ><h4 class="subject">
+            *All Disputes against this Invoice are Subject to Dhanbad
+            Jurisdiction.........
+          </h4></u
+        >
+      </div>
+      <div class="bank">
+        <h3><u>BANK DETAILS</u></h3>
+        <h4>BANK NAME:- KARNATAKA BANK</h4>
+        <h4>A/C No:- 1997000600006701</h4>
+        <h4>IFSC CODE:- KARB0000199</h4>
+        <h4>BRANCH:- DHANBAD</h4>
+      </div>
+    </div>
+  </body>
+  <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+  <script src="App.js"></script>
+</html>

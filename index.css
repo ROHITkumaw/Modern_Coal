@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  font-family: "lato", sans-serif;
+  background-color: #f8f8ff;
+}
+
+.truckno{
+  font-weight: 200px;
+  font-size: 20pt;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+#tax {
+  text-align: center;
+}
+#navbar,
+tr,
+td {
+  border: 1px solid black;
+  padding: 4px;
+}
+#navbar2,
+tr,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+/* ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+*/ */ */ #inputbox {
+  width: 50px;
+}
+#date {
+  float: right;
+}
+#name {
+  width: 300px;
+  height: 25px;
+}
+#address {
+  width: 420px;
+  height: 25px;
+}
+#deliveryaddress {
+  width: 100%;
+  height: 25px;
+}
+#number {
+  width: 420px;
+  height: 25px;
+  margin: 10px;
+}
+#gst {
+  width: 100%;
+  height: 25px;
+}
+#hsn {
+  width: 100px;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+}
+textarea {
+  width: 98.5%;
+  height: 100%;
+  font-size: 20pt;
+}
+
+#quantity {
+  width: 200px;
+  margin-bottom: 18px;
+}
+#rate {
+  width: 200px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+#right {
+  text-align: right;
+}
+#input {
+  width: 96%;
+  font-weight: bold;
+}
+.goods {
+  margin-bottom: 21px;
+  text-align: center;
+}
+#leftalign {
+  float: right;
+  position: relative;
+  top: 30px;
+}
+#underline {
+  font-size: 16pt;
+  position: relative;
+  top: 40px;
+}
+#authorisedsignature {
+  float: right;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  font-size: 20pt;
+}
+#authsig {
+  float: right;
+}
+#grossvalue {
+  width: 100%;
+  height: 30px;
+}
+.name {
+  display: flex;
+  padding-bottom: 51px;
+}
+#name {
+  margin: 25px 10px 10px 10px;
+}
+/* #address {
+  margin: 0;
+} */
+.address {
+  margin: 0;
+}
+.image {
+  border-radius: 10px; 
+  position: relative;
+  top: 30px;
+}
+#pdf-gen {
+  margin: 20px;
+}
+.bank {
+  margin-top: 60px;
+  border: solid 1px black;
+  border-radius: 30px;
+  width: 260px;
+  padding: 15px;
+}
+.subject{
+  position: relative;
+  top: 350px;
+}
+
